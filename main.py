@@ -7,7 +7,7 @@ screen = Screen()
 screen.setup(width=600, height=500)
 goal_x = screen.window_width()/2-50
 goal_y = screen.window_height()/2
-screen.title(f"The Turtle races")
+screen.title(f"Turtle Race")
 
 def create_turtle_list(n_turtles):
     for j in range(n_turtles):
